@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:meu_app/Botao.dart';
+import 'package:meu_app/stateful/Contador.dart';
 import 'package:meu_app/stateless/SemEstado.dart';
 import 'package:meu_app/stateless/User.dart';
 
@@ -45,7 +46,9 @@ void main(){
 
  //exemplo stateful
 
- 
+ runApp(MaterialApp(
+  home: Contador(),
+ ));
 
 } 
 
