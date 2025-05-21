@@ -1,6 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:meu_app/Botao.dart';
+import 'package:meu_app/stateless/SemEstado.dart';
+import 'package:meu_app/stateless/User.dart';
 
-void main() {
+/* void main() {
   runApp(Center(
     child: Text(
       "utilizando flutter",
@@ -9,4 +13,39 @@ void main() {
     ),
   ));
 }
+  */
+
+
+/**
+ * NO FLUTTER TEMOS 3 TIPOS DE ESTADOS DE APLICAÇÃO
+ * STATELESS (ESTADO IMUTAVEL)
+ * A UI NUNCA MUDA APÓS SER CONSTRUIDA
+ * E USADO PARA COMPONENTES ESTÁTICOS COMO ICONES, TEXTOS FIXOS E ETC.
+ * 
+ * STATEFUL (ESTADO LOCAL)
+ * A UI MUDA QUANDO O ESTADO INTERNO MUDA
+ * É USADO EM WIDGETS QUE TEM INTERAÇÃO COM O USUÁRIO, COMO ENTRADAS
+ * DE TEXTOS, CARREGAMENTO DE DADOS, ANIMAÇÕES E ETC
+ * 
+ * INHERITED (ESTADO HERDADO)
+ * COMPARTIHA DADOS DESCENDENTES NA ARVORE DE WIDGETS
+ * UTIL PARA DADOS GLOBAIS LEVES COMO TEMAS, IDIOMAS E ETC. 
+ */
+
+
+void main(){
+/*  runApp(SemEstado()); 
+ runApp(MaterialApp(
+  home: Center(
+    child: Botao(),
+  ),
+  )); */
+
+  runApp(User());
+  
+} 
+
+
+
+
 
