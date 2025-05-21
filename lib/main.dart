@@ -16,7 +16,7 @@ import 'package:meu_app/stateless/User.dart';
   */
 
 
-/**
+/*
  * NO FLUTTER TEMOS 3 TIPOS DE ESTADOS DE APLICAÇÃO
  * STATELESS (ESTADO IMUTAVEL)
  * A UI NUNCA MUDA APÓS SER CONSTRUIDA
@@ -41,9 +41,16 @@ void main(){
   ),
   )); */
 
-  runApp(User());
-  
+ // runApp(User());
+
+ //exemplo stateful
+
+ 
+
 } 
+
+
+
 
 
 
