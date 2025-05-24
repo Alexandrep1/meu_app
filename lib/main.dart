@@ -1,12 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:meu_app/view/home.view.dart';
 
 void main() {
-  runApp(Center(
-    child: Text(
-      "utilizando flutter",
-      textDirection: TextDirection.ltr,
-      style: TextStyle(color: Colors.pink, fontSize: 30.0),
-    ),
-  ));
+  runApp(const MyApp());
 }
 
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "flutter demo",
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: HomeView(),
+    );
+  }
+}
