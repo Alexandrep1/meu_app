@@ -33,7 +33,6 @@ class _StoreStatusWidgetState extends State<StoreStatusWidget> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               isOpen ? "A Loja está Aberta" : "A Loja está Fechada",
@@ -58,6 +57,7 @@ class _StoreStatusWidgetState extends State<StoreStatusWidget> {
               isOpen ? "a loja está aberta" : "a loja está fechada",
               style: TextStyle(fontSize: 14, color: Colors.red),
             ),
+            
           ],
         ),
       ),
