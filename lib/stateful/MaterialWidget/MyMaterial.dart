@@ -6,8 +6,8 @@ class MyMaterial extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: "titulo do app",
+    return MaterialApp(
+      title: 'Titulo do app',
       debugShowCheckedModeBanner: false,
       home: Tela(),
     );
@@ -25,40 +25,36 @@ class _TelaState extends State<Tela> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("APP BAR")),
-      body: Text("Corpo do aplicativo"),
-      backgroundColor: Colors.pink[300],
+      appBar: AppBar(title: Text('APP BAR')),
+      body: Text('Corpo do aplicativo'),
+      backgroundColor: Colors.purple[900],
       drawer: Drawer(
         child: ListView(
           children: [
             DrawerHeader(
               child: Text(
-                "Menu",
-                style: GoogleFonts.roboto(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold
-                )
+                'Menu',
+                style: GoogleFonts.anton(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
-            ListTile(title: Text("Home")),
-            Divider(),
-            ListTile(title: Text("Produtos")),
-            Divider(),
-            ListTile(title: Text("Serviços")),
-            Divider(),
-            ListTile(title: Text("Contato")),
-            Divider(),
+            ListTile(title: Text('HOME')),
+            ListTile(title: Text('PRODUTOS')),
+            ListTile(title: Text('SERVIÇOS')),
+            ListTile(title: Text('CONTATO')),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-      onPressed: () {
+        onPressed: (){
 
-      },
-      child: Icon(Icons.add)
+        },
+        child: Icon(Icons.add),
       ),
       bottomNavigationBar: BottomAppBar(
-        child: Padding(padding: EdgeInsets.all(16), child: Text("Rodapé"),),
+        child: Padding(padding: EdgeInsetsGeometry.all(16), child: Text('Rodapé'),),
       ),
     );
   }
