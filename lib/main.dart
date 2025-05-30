@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+/* import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:meu_app/Botao.dart';
 import 'package:meu_app/Loja.dart';
@@ -11,7 +11,7 @@ import 'package:meu_app/stateful/RandomNumberWidget.dart';
 import 'package:meu_app/stateful/inherited/UserInfos.dart';
 import 'package:meu_app/stateless/SemEstado.dart';
 import 'package:meu_app/stateless/User.dart';
-
+ */
 
 /* void main() {
   runApp(Center(

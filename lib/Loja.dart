@@ -64,3 +64,4 @@ class _StoreStatusWidgetState extends State<StoreStatusWidget> {
     );
   }
 }
+.dasdçkjasfoiajoapsgas
