@@ -1,0 +1,25 @@
+MaterialApp
+
+MaterialApp é um widget fundamental no flutter que configura a 
+estrutura basica de um aplicativo seguindoas diretrizes de design
+do Material design(o sistema de design criado pela Google).
+
+funcoes principais do MaterialApp 
+-> define o tema(theme, darkTheme)
+-> gerencia navegação e rotas(home, routes, onGenerateRoute)
+-> controla o titulo da aplicação 
+-> suporte a intercionalização 
+-> define o widget principal da tela inicial 
+
+Scaffold (pertencente ao MaterialApp)
+
+O Scaffold é outro widget essencial no flutter. ele fornece a 
+estrutura visual basica de uma tela em um aplicativo que usa 
+MaterialApp
+
+o que o Scaffold oferece:
+-> AppBar (barra superior)
+-> Drawner (menu lateral)
+-> BottomNavigationbar (barra de navegação inferior)
+-> FloatingActionButton (botao flutuante)
+-> body (conteudo principal da tela)
