@@ -1,0 +1,19 @@
+CUPERTINO
+
+o cupertino no flutter e o cojunto de widgets que repoduzem fielmente o visual
+e o comportamento do iOS (apple), seguindo as diretrizes de HIG (Human Interface 
+Guidelines) da Apple
+
+objetivos do cupertino
+-> recriar componentes nativos do iOS
+-> fornece uma experiencia visual consiste para usuarios iphone/ipad
+-> substituir widgets do Material por equivalentes no iOS 
+
+CupertinoPageScaffold
+é um widget do cupertino usado para criar interface no estilo iOS
+ele fornece uma estrutura basica de uma pagina no estilo iOS, similar ao scaffold
+
+objetivos
+-> criar paginas nativas com visual nativo iOS
+-> gerenciar nativamente o SafeArea (iOS)
+-> permitir navegação fluida no estilo cupertino

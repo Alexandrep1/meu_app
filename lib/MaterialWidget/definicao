@@ -1,0 +1,46 @@
+MaterialApp
+
+MaterialApp é um widget fundamental no flutter que configura a 
+estrutura basica de um aplicativo seguindoas diretrizes de design
+do Material design(o sistema de design criado pela Google).
+
+funcoes principais do MaterialApp 
+-> define o tema(theme, darkTheme)
+-> gerencia navegação e rotas(home, routes, onGenerateRoute)
+-> controla o titulo da aplicação 
+-> suporte a intercionalização 
+-> define o widget principal da tela inicial 
+
+Scaffold (pertencente ao MaterialApp)
+
+O Scaffold é outro widget essencial no flutter. ele fornece a 
+estrutura visual basica de uma tela em um aplicativo que usa 
+MaterialApp
+
+o que o Scaffold oferece:
+-> AppBar (barra superior)
+-> Drawner (menu lateral)
+-> BottomNavigationbar (barra de navegação inferior)
+-> FloatingActionButton (botao flutuante)
+-> body (conteudo principal da tela)
+
+
+CUPERTINO
+
+o cupertino no flutter e o cojunto de widgets que repoduzem fielmente o visual
+e o comportamento do iOS (apple), seguindo as diretrizes de HIG (Human Interface 
+Guidelines) da Apple
+
+objetivos do cupertino
+-> recriar componentes nativos do iOS
+-> fornece uma experiencia visual consiste para usuarios iphone/ipad
+-> substituir widgets do Material por equivalentes no iOS 
+
+CupertinoPageScaffold
+é um widget do cupertino usado para criar interface no estilo iOS
+ele fornece uma estrutura basica de uma pagina no estilo iOS, similar ao scaffold
+
+objetivos
+-> criar paginas nativas com visual nativo iOS
+-> gerenciar nativamente o SafeArea (iOS)
+-> permitir navegação fluida no estilo cupertino

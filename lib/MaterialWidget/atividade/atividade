@@ -1,0 +1,12 @@
+crie um novo aplicativo do zero
+
+o aplicativo precisa usar material app
+devera ter uma interface com as seguintes caracteristicas
+-> titulo em appbar
+-> menu de navegação lateral(drawer)
+    -> insira o titulo do menu
+    -> insira 5 opçoes de menu
+-> o corpo do app devera ter
+    -> mensagem de boas vindas
+-> insira um rodape
+-> o aplicativo deveta ter opçao de dark e light mode
