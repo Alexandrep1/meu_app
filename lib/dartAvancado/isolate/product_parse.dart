@@ -59,6 +59,10 @@ Future<List<dynamic>> loadJson() async{
                         fontWeight: FontWeight.bold
                       ),
                      ),
+                     leading: const Icon(
+                      Icons.shopping_cart,
+                      color: Colors.indigo,
+                     )
                   ),
                 );
               },
